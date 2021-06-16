@@ -4,7 +4,7 @@ import './Loader.css';
 function Loader() {
   return (
     <>
-      <div className="lds-ring">
+      <div style={{ height: '100vh' }} className="lds-ring">
         <div></div>
         <div></div>
         <div></div>
